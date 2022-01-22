@@ -1,9 +1,12 @@
 # Project Overview:
 
-### TODO
+### TODO - ROADMAP:
 - [x] Support different backbones for image segmintation
 - [x] Implement basic Image classification CNN
 - [ ] Implement training methods for the CNN
+- [ ] Unit Testing for DeeplabV3+ & CNN
+- [ ] Integrate Image Classification CNN with DeeplabV3+ output
+- [ ] Unit Testing for the intergrated Nueral Network - DEEPCVS
 - [ ] Add an interface for manual dataset input
 - [ ] Train the DeepCVS on the given dataset
 - [ ] Improve DeeplabV3+ results over the given dataset
