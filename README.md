@@ -6,8 +6,9 @@
 - [x] Support different backbones for image segmintation
 - [x] Implement basic Image classification CNN
 - [x] Implement training methods for the CNN
-- [ ] Integrate Image Classification CNN with DeeplabV3+ output
 - [ ] Unit Testing for DeeplabV3+ & CNN
+- [ ] Integrate Image Classification CNN with DeeplabV3+ output
+- [ ] Create an API to integrate surgery dataset 
 - [ ] Unit Testing for the intergrated Nueral Network - DEEPCVS
 - [ ] Add an interface for manual dataset input
 - [ ] Train the DeepCVS on the given dataset
