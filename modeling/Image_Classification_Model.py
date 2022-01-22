@@ -9,10 +9,10 @@ from torch.nn import LogSoftmax
 from torch import flatten
 
 
-class LeNet(Module):
+class MyNet(Module):
     def __init__(self, numChannels, classes):
         # call the parent constructor
-        super(LeNet, self).__init__()
+        super(MyNet, self).__init__()
         # initialize first set of CONV => RELU => POOL layers
         # fist layer
         layer1 = Conv2d(16, 8, kernel_size=5, stride=1, padding=1)
