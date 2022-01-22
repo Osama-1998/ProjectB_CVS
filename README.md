@@ -1,19 +1,25 @@
 # Project Overview:
 ### Goal: 
-    We wish to help surgeons properly identify part of the body by checking if 3 criteria’s were met
+    We wish to help surgeons properly identify parts of the body by checking if 3 criteria’s were met
 ### Data: 
     The input we have is videos from different surgeries that took place between 2015-2019.
 ### Data sets: 
-    1-	CVS Dataset: from each 1 minute long video we extract 60 frames – 1 fps. For each picture we use 3 criteria classification namely: c1 c2 c3 
-    2-	Segmentation dataset: Two images at least 10 seconds apart and 1 image meeting 3/3 criteria
-    It basically assigned each pixel of a picture to a certain class -tool etc..
+    1-CVS Dataset: from each 1 minute long video we extract 60 frames – 1 fps. 
+    For each picture we use 3 criteria classification to identify an organ structure namely: c1 c2 c3 
+    2-Segmentation dataset: Two images at least 10 seconds apart and 1 image meeting 3/3 criteria
+
 ### DeepCVS: 
-    a 2-stage model to segment hepatocystic anatomy and predict whether each of the 3 CVS criteria has been achieved in a laparoscopic image.
+    a 2-stage model to segment hepatocystic anatomy and predict whether each of the 3 CVS criteria has 
+    been achieved in a laparoscopic image.
+    
 ### First stage: 
-    The first stage of DeepCVS is a segmentation network that is used to classify pixels of the image according to the anatomical structures they belong to.
+    The first stage of DeepCVS is a segmentation network that is used to classify pixels of the image 
+    according to the anatomical structures they belong to.
     After the first stage, the pixel classified image along with the original image are fed into stage2
+    
 ### Second stage: 
     a multi-label classification network, which outputs 3 non-exclusive probability-like values
+ 
 ![image](https://user-images.githubusercontent.com/82500901/150633756-ae729cc7-5bf3-4610-a84f-604f7a0337f1.png)
 
 
