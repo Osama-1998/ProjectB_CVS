@@ -5,7 +5,7 @@
 - [x] Import Pytorch friendly Deeplabv3+ version
 - [x] Support different backbones for image segmintation
 - [x] Implement basic Image classification CNN
-- [ ] Implement training methods for the CNN
+- [x] Implement training methods for the CNN
 - [ ] Unit Testing for DeeplabV3+ & CNN
 - [ ] Integrate Image Classification CNN with DeeplabV3+ output
 - [ ] Unit Testing for the intergrated Nueral Network - DEEPCVS
