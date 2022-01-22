@@ -1,5 +1,17 @@
 # Project Overview:
-### Reference : https://icube-publis.unistra.fr/docs/14676/hal.pdf
+
+### TODO
+- [x] Support different backbones for image segmintation
+- [x] Implement basic Image classification CNN
+- [ ] Implement training methods for the CNN
+- [ ] Add an interface for manual dataset input
+- [ ] Train the DeepCVS on the given dataset
+- [ ] Improve DeeplabV3+ results over the given dataset
+- [ ] Try different backbones - mobilenet,resnet,xception
+
+### Reference:
+    The project is based on the following paper: https://icube-publis.unistra.fr/docs/14676/hal.pdf
+
 ### Goal: 
     We wish to help surgeons properly identify parts of the body by checking if 3 criteria’s were met
 ### Data: 
