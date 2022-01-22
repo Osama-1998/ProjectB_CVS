@@ -1,6 +1,8 @@
 # Project Overview:
 
 ### TODO - ROADMAP:
+- [x] Research the article topic and DeeplabV3+
+- [x] Import Pytorch friendly Deeplabv3+ version
 - [x] Support different backbones for image segmintation
 - [x] Implement basic Image classification CNN
 - [ ] Implement training methods for the CNN
