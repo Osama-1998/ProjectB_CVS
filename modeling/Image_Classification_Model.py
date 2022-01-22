@@ -46,7 +46,15 @@ class MyNet(Module):
 
         # ((W - K + 2P) / S) + 1) Where W = Input size  K = Filter size  S = Stride  P = Padding
         # TODO Osama: Calculate correct dimentions for Linear layer input
-        linear_layer = Linear(20, 3)
+        #input dims are 480x854x3
+        #dimsi = dims after i'th layer, currently we're assuming S=1 P=1
+        #dims1=[476,850]
+        #dims2=[472,846]
+        #dims3=[470,844]
+        #dims4=[468,842]
+        #dims5=[466,840]
+        #The FC layer input is 466*840*32
+        linear_layer = Linear(466*840*32, 3)
 
         self.cnn_layers = Sequential(
             layer1, layer2, layer3, layer4, layer5
