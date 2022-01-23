@@ -66,7 +66,7 @@ using Pascal VOC 2012, SBD and Cityscapes datasets.
 
 
 ### Acknowledgement
-[Deeplabv3+] git clone https://github.com/jfzhang95/pytorch-deeplab-xception.git
+[Deeplabv3+] (https://github.com/jfzhang95/pytorch-deeplab-xception.git)
 
 [PyTorch-Encoding](https://github.com/zhanghang1989/PyTorch-Encoding)
 
