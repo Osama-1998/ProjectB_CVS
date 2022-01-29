@@ -11,7 +11,8 @@
 - [ ] Create an API to integrate surgery dataset 
 - [ ] Unit Testing for the intergrated Nueral Network - DEEPCVS
 - [ ] Train the DeepCVS on the given dataset
-- [ ] Improve DeeplabV3+ results over the given dataset
+- [ ] Improve DeeplabV3+ results over the given dataset by finding perfect hypers
+- [ ] Try different image classification nets instead of the 6 layers CNN
 - [ ] Try different backbones - mobilenet,resnet,xception
 
 ### Reference:
