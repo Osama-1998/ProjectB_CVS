@@ -10,7 +10,6 @@
 - [ ] Integrate Image Classification CNN with DeeplabV3+ output
 - [ ] Create an API to integrate surgery dataset 
 - [ ] Unit Testing for the intergrated Nueral Network - DEEPCVS
-- [ ] Add an interface for manual dataset input
 - [ ] Train the DeepCVS on the given dataset
 - [ ] Improve DeeplabV3+ results over the given dataset
 - [ ] Try different backbones - mobilenet,resnet,xception
