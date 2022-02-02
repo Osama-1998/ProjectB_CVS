@@ -6,7 +6,7 @@
 - [x] Support different backbones for image segmintation
 - [x] Implement basic Image classification CNN
 - [x] Implement training methods for the CNN
-- [ ] Gain Access to the labs GPU
+- [ ] Gain Access to the lab's GPU
 - [ ] Unit Testing for DeeplabV3+ & CNN 
 - [ ] Integrate Image Classification CNN with DeeplabV3+ output
 - [ ] Create an API to integrate surgery dataset 
